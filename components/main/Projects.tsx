@@ -9,12 +9,12 @@ const Projects = () => {
             <ProjectCard
                 src="/1.png"
                 title="Modern Next.Js Portfolio"
-                description="A Portfolio Project created with NextJS, just to practice, to try to improve my FrontEnd skills and as a WebDesginer."
+                description="Um Projeto de Portfólio criado com NextJS, apenas para praticar, para tentar aprimorar minhas habilidades em FrontEnd e como WebDesginer."
             />
             <ProjectCard
                 src="/SpaceWebsite.png"
                 title="Space Themed Website"
-                description="My new portfolio, where I intend to add all my projects, Skills and Developments throughout my career as a Developer."
+                description="Meu novo portfólio, onde pretendo agregar todos os meus projetos, Habilidades e Desenvolvimentos ao longo da minha carreira como Desenvolvedor."
             />
         </div>
     </div>
