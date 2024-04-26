@@ -13,7 +13,7 @@ const SkillText = () => {
         >
             <SparklesIcon className="text-[#B49BFF] mr-[10px] h-5 w-5" />
             <h1 className="Welcome-text text-[13]">
-                Think better with Next Js 13
+                Pense melhor com Next Js 13
             </h1>
         </motion.div>
 
@@ -21,14 +21,14 @@ const SkillText = () => {
             variants={slideInFromLeft(0.5)}
             className="text-[30px] text-white font-medium mt-[10px] text-center mb-[15px]"
         >
-            Making apps with Modern Technologies
+            Fazendo aplicativos com tecnologias modernas
         </motion.div>
 
         <motion.div
             variants={slideInFromRight(0.5)}
             className="cursive text-[20px] text-gray-200 mb-10 mt-[10px] text-center"
         >
-            Never miss a task deadline or idea
+            Nunca perca o prazo de uma tarefa ou ideia
         </motion.div>
     </div>
   )

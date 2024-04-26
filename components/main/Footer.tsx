@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="w-full flex flex-col items-center justify-center m-auto">
             <div className="w-full h-full flex flex-row items-center justify-around flex-wrap">
                 <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
-                    <div className="font-bold text-[16px]">Community</div>
+                    <div className="font-bold text-[16px]">Comunidade</div>
                     <p className="flex flex-row items-center my-[15px] cursor-pointer">
                         <FaYoutube />
                         <span className="text-[15px] ml-[6px]">YouTube</span>
@@ -38,12 +38,12 @@ const Footer = () => {
                     </p>
                 </div>
                 <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
-                    <div className="font-bold text-[16px]">About</div>
+                    <div className="font-bold text-[16px]">Sobre</div>
                     <p className="flex flex-row items-center my-[15px] cursor-pointer">
-                        <span className="text-[15px] ml-[6px]">Become Sponsor</span>
+                        <span className="text-[15px] ml-[6px]">Torne-se patrocinador</span>
                     </p>
                     <p className="flex flex-row items-center my-[15px] cursor-pointer">
-                        <span className="text-[15px] ml-[6px]">Learning About Me</span>
+                        <span className="text-[15px] ml-[6px]">Leia sobre mim</span>
                     </p>
                     <p className="flex flex-row items-center my-[15px] cursor-pointer">
                         
@@ -52,7 +52,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className="mb-[20px] text-[15px] text-center">
-                &copy; BhSoftware 2024 Inc. All rights reserved
+                &copy; BhSoftware 2024 Inc. Todos os direitos reservados.
             </div>
         </div>
     </div>
