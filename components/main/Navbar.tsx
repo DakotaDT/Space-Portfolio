@@ -8,7 +8,7 @@ const Navbar = () => {
         <div className="w-full h-full flex flex-row items-center justify-between m-auto px-[10px]">
             <a href="#about-me" className="h-auto w-auto flex flex-row items-center">
                 <Image 
-                    src="/NavLogo.png"
+                    src="/Logo.png"
                     alt="logo"
                     width={70}
                     height={70}
@@ -28,9 +28,9 @@ const Navbar = () => {
                 </div>
             </div>  
 
-            <div className="flex flex-row gap-5 min-[1000px]">
+            <div className="flex flex-row gap-5">
                 {Socials.map((social) => (
-                    <a href={`${social.url}`} target="_blank" key={social.id}>
+                    <a href={`${social.url}`} className="h-auto w-auto" target="_blank" key={social.id}>
                         <Image 
                             src={social.src}
                             alt={social.name}
